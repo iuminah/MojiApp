@@ -14,15 +14,13 @@ function ScreenOne() {
   };
 
   return (
-    <SafeAreaView>
-      <View>
-        <>
-          <Text style={tailwind('text-blue-500')}>ScreenOne</Text>
-          <Text style={tailwind('border border-blue-500')}>{test()}</Text>
-          <Button onPress={() => onPress()} title="Press Me" />
-        </>
-      </View>
-    </SafeAreaView>
+    <>
+      <Text style={tailwind('text-blue-500')}>ScreenOne</Text>
+      <Text style={tailwind('text-blue-500')}>ScreenOne</Text>
+      <Text style={tailwind('text-blue-500')}>ScreenOne</Text>
+      <Text style={tailwind('border border-blue-500')}>{test()}</Text>
+      <Button onPress={() => onPress()} title="Press Me" />
+    </>
   );
 }
 

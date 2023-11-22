@@ -15,6 +15,16 @@
 			"marginTop": 24
 		}
 	},
+	"mt-[]": {
+		"style": {
+			"marginTop": ""
+		}
+	},
+	"mt-[500px]": {
+		"style": {
+			"marginTop": 500
+		}
+	},
 	"flex": {
 		"style": {
 			"display": "flex"

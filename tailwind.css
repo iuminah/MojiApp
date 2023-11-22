@@ -11,6 +11,14 @@
   margin-top: 1.5rem
 }
 
+.mt-\[\] {
+  margin-top: 
+}
+
+.mt-\[500px\] {
+  margin-top: 500px
+}
+
 .flex {
   display: flex
 }
